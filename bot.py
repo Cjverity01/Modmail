@@ -148,7 +148,7 @@ class ModmailBot(commands.Bot):
             return HostingMethod.HEROKU
 
         if os.environ.get("pm_id"):
-            return HostingMethod.PM2
+            return HostingMethod.CJSCOMMISIONS
 
         if os.environ.get("INVOCATION_ID"):
             return HostingMethod.SYSTEMD
